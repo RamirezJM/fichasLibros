@@ -1,0 +1,87 @@
+h1, h2, h3, h4, ul, li, p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: url(../img/librosfondo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  padding: 2em;
+  background-color: #6495ed;
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+main {
+  max-width: 800px;
+  padding: 20px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+main form {
+  width: 40%;
+  border: solid 1px;
+  padding: 0.5em;
+  border-radius: 5px;
+  background-color: #ffce61;
+}
+
+main article {
+  width: 45%;
+  border: solid 1px;
+  border-radius: 10px;
+  background-color: #ffce61;
+  padding: 0.5em;
+}
+
+h1, h2, h3, h4, p {
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+#tituloColumna {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 1em;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-align: center;
+}
+
+input, textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 1em;
+  border: 1px solid #666;
+  padding: 0.5em;
+  box-sizing: border-box;
+}
+
+.card {
+  padding: 10px;
+  background-color: #efefef;
+  margin-bottom: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
